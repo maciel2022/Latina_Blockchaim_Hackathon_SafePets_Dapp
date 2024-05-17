@@ -1,0 +1,32 @@
+
+
+body {
+    background: whitesmoke;
+    color: white;
+}
+
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.color1 {
+    background-color: rgb(0, 195, 156);
+}
+.color2 {
+    background-color: rgb(0, 172, 192);
+}
+.color3 {
+    background-color: rgb(0, 116, 187);
+}
+.color4 {
+    background-color: rgb(1, 84, 136);
+    color: white;
+    &:hover {
+        background-color:rgb(0, 195, 156);
+        color: rgba(0, 0, 0, 0.691);
+    }
+}
+.color5 {
+    background-color: rgba(230, 103, 39, 0.808);
+}
